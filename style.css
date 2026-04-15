@@ -1,0 +1,95 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do site */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0b6623; /* Verde */
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #064d1a;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 20px;
+}
+
+header p {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* Container */
+.container {
+    width: 95%;
+    max-width: 500px;
+    margin: 20px auto;
+    overflow-x: auto;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #046d2f;
+    font-size: 14px;
+}
+
+tr:nth-child(even) {
+    background-color: #0f7a34;
+}
+
+tr:nth-child(odd) {
+    background-color: #0b6623;
+}
+
+/* Destaques */
+.top4 {
+    background-color: #1fa34a !important;
+    font-weight: bold;
+}
+
+.z4 {
+    background-color: #a11f1f !important;
+    font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 12px;
+    background-color: #064d1a;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 18px;
+    }
+
+    th, td {
+        font-size: 13px;
+        padding: 8px;
+    }
+}
